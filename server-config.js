@@ -3,7 +3,7 @@ var request = require('request');
 var app = express();
 
 app.set('view engine', 'html');
-app.locals.vetApi = 'http://api.dol.gov/V1/VETS100/V100ADataDotGov?$filter=FilingCycle eq 2014&$orderby=NewHire_TotalAllEmployees11 desc&KEY=5d7dfc2b-abef-4074-b8ed-afde0b46ba4a';
+app.locals.vetApi = 'http://api.dol.gov/V1/VETS100/V100ADataDotGov?$filter=FilingCycle eq 2014&$orderby=NewHire_TotalAllEmployees11 desc&KEY=' + process.env.DOLKEY;
 app.locals.vetData = '';
 app.use('/', express.static(__dirname + '/client'));
 
