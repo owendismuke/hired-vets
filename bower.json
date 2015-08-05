@@ -1,0 +1,17 @@
+{
+  "name": "mvp-project",
+  "version": "0.0.1",
+  "homepage": "https://github.com/owendismuke/2015-06-solo",
+  "authors": [
+    "Owen Dismuke <owen.dismuke@gmail.com>"
+  ],
+  "description": "Solo minimum viable product project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

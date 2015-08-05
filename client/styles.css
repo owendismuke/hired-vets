@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  height: 95%;
+}
+h1 {
+  margin-left: 5px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+svg {
+  margin: 5px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.info {
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    min-width: 180px;
+    background: lightgrey;
+    font: 12px Arial;
+    border: 0px;
+    border-radius: 4px;
+    pointer-events: none;
+  }

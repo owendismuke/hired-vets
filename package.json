@@ -1,0 +1,30 @@
+{
+  "name": "2015-06-solo",
+  "version": "0.0.0",
+  "description": "## Information for veterans and the companies themselves to see where they stack up.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.12.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owendismuke/2015-06-solo.git"
+  },
+  "author": "Owen Dismuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owendismuke/2015-06-solo/issues"
+  },
+  "homepage": "http://vetshired.azurewebsites.net",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
